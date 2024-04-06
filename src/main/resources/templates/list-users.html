@@ -28,9 +28,10 @@
                         <td th:text="${user.id}"></td>
                         <td th:text="${user.name}"></td>
                         <td>
-                            <a class="btn btn-info" th:href="@{'/editar/' + ${user.id}}">Editar</a>
-                            <a class="btn btn-danger" th:href="@{'/eliminar/' + ${user.id}}">Elimnar</a>
-                            onclick="return confirm('Seguro deseas eliminar este registro?')"
+                            <a class="btn btn-info" th:href="@{'/editar/'+ ${user.id}}">Editar</a>
+                            <a class="btn btn-danger" th:href="@{'/eliminar/' + ${user.id}}"
+                               onclick="return confirm('Seguro deseas eliminar este registro?')">Elimnar</a>
+
                         </td>
                     </tr>
                 </table>

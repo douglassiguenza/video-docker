@@ -42,7 +42,7 @@ public class PageUserController {
     @GetMapping("/eliminar/{id}")
     public String eliminarUser(@PathVariable Long id){
         userRepository.delete(new User(id));
-        return "redirect:/usuarios";
+        return "redirect:/users";
     }
 
 
