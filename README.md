@@ -1,3 +1,4 @@
+##IMPORTANTE: La carpeta a utilizar es "video-docker-main" que esta dentro de la carpeta "video-docker-main MOD"
 
 #Correr la aplicación de manera automática
 
