@@ -2,14 +2,12 @@
 #Correr la aplicación de manera automática
 
 **Paso 1.
-Limpiar ya sea de manera manual por medio de docker o automática por medio de la terminal cualquier rastro de contenedores, imagenes o volúmenes pasados de aplicación, esto con el fin de evitar problemas con la creación del contenedor de la aplicación
+Limpiar ya sea de manera manual por medio de docker o automática por medio de la terminal cualquier rastro de contenedores, imagenes o volúmenes pasados de aplicación, esto con el fin de evitar problemas con la creación del contenedor de la aplicación 
 
-**Paso 2. Ejecutar el siguiente comando: mvn clean package -DskipTests 
-
-**Paso 3. Para iniciar la aplicación y su entorno de ejecución, se hace uso del siguiente comando 
+**Paso 2. Para iniciar la aplicación y su entorno de ejecución, se hace uso del siguiente comando 
 docker-compose up
 
-**Paso 4.Ingresar a localhost:8080/users para verificar la conexión de la aplicación por medio de esta URL.
+**Paso 3.Ingresar a localhost:8080/users para verificar la conexión de la aplicación por medio de esta URL.
 
 
 
